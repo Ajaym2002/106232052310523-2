@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DynaPuff", cursive !important;
+}
+
+body {
+  background-color: #ebf2ff !important;
+}
+
+.button_forMobile {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  margin: 10px 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .add__new__button__Mobile__only {
+    display: none;
+  }
+}
