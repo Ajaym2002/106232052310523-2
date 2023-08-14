@@ -8,7 +8,7 @@ body {
   background-color: #ebf2ff !important;
 }
 
-.button_forMobile {
+.add__new__button__Mobile__only {
   display: flex;
   position: fixed;
   bottom: 0;
