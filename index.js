@@ -29,7 +29,7 @@ const htmlTaskContent = ({ id, title, type, description, url }) => `
             </div>
           </div>
       </div>
-`
+`;
 
 const htmlModalContent = ({ id, title, description, url }) => {
   const date = new Date(parseInt(id));
@@ -49,7 +49,7 @@ const htmlModalContent = ({ id, title, description, url }) => {
   `;
 };
 
-const updatelocalstorage = () => {
+const updateLocalStorage = () => {
   localStorage.setItem(
     "task",
     JSON.stringify({
